@@ -1,0 +1,22 @@
+{
+    "title": "Code Actions",
+    "description": "Let users copy or exec code blocks",
+    "details": {
+        "intro": {
+            "text": "intro.md"
+        },
+        "steps": [
+            {
+                "title": "Create hha pod",
+                "text": "step1/text.md",
+                "verify": "step1/verify.sh"
+            }
+        ],
+        "finish": {
+            "text": "finish.md"
+        }
+    },
+    "backend": {
+        "imageid": "ubuntu"
+    }
+}
